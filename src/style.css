@@ -1,1 +1,59 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+img {
+  width: 100px;
+  height: 100px;
+}
+#carta1 {
+  width: 150px;
+  height: 250px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  border: 8px solid grey;
+}
+#tipo1 {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: x-large;
+}
+#valor1 {
+  font-size: x-large;
+}
+#segundo-Tipo {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-size: x-large;
+}
+#carta2 {
+  width: 150px;
+  height: 250px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  border: 8px solid grey;
+}
+#tipo2 {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: x-large;
+}
+#valor2 {
+  font-size: x-large;
+}
+#segundo-Tipo2 {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  font-size: x-large;
+}

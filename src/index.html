@@ -14,15 +14,23 @@
   </head>
   <body>
     <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
+      <h1 class="mt-5">Hello!</h1>
+      <h3>
+        ¿Quieres una carta?,
+        <button onclick="generaUnaCartaAleatoria()">
+          <strong>"Pulsa"</strong>
+        </button>
+        cuando estes listo!.
+      </h3>
+      <div class="display-flex row justify-content-center gap-5">
+        <div id="carta1">
+          <span id="tipo1"></span>
+          <span id="valor1"></span>
+          <span id="segundo-Tipo"></span>
+        </div>
       <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+        Made with Love by David Gómez
+        <a href="https://www.4geeksacademy.com"></a>
       </div>
     </div>
   </body>
